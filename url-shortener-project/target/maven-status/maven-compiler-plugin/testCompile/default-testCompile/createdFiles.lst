@@ -1,0 +1,4 @@
+com\zinkworks\bountyhuntersurlshortener\service\UrlServiceTest.class
+com\zinkworks\bountyhuntersurlshortener\service\UrlValiditationTest.class
+com\zinkworks\bountyhuntersurlshortener\repository\RepositoryUrlTest.class
+com\zinkworks\bountyhuntersurlshortener\Shortener\UrlShortenerApplicationTests.class
