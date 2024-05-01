@@ -25,7 +25,7 @@ public class UrlService {
     public List<BountyUrlTable> getAllUrlInfo() {
         return repositoryUrl.findAll();    // returns all database info from the repository class.
     }
-
+//test
     public String addNewUrl(String originalUrl) throws InvalidUrlException, IOException, BlackListedUrlException {
         boolean blackList = BlackList.checkBlackList(originalUrl);
         String createdShortUrl = "";
