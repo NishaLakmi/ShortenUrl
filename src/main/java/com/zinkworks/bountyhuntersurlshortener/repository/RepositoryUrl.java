@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 
-@Repository
+@Repository//test
 public interface RepositoryUrl extends JpaRepository<BountyUrlTable, Long> {
     @Query(value = "SELECT * FROM bounty_url_table WHERE short_url = :shortUrl", nativeQuery = true)
     Optional<BountyUrlTable> findByShortUrl(String shortUrl);
