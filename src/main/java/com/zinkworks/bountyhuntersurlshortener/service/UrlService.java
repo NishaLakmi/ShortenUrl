@@ -18,7 +18,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class UrlService {//
+public class UrlService {
 
     @Autowired
     private RepositoryUrl repositoryUrl;  // creating object of RepositoryUrl class
