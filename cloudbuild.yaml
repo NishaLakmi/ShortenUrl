@@ -28,11 +28,13 @@ steps:
 
     - '--image'
 
-    - 'gcr.io/$_PROJECT_ID/$_BINARY_NAME:$COMMIT_SHA'
+#    - 'gcr.io/$_PROJECT_ID/$_BINARY_NAME:$COMMIT_SHA'
+    -  'gcr.io/shortenurl-project-421309/url-shortener:shorturl'
 
     - '--region'
 
-    - '$_REGION'
+#    - '$_REGION'
+    -  'us-central1'
 
     - '--allow-unauthenticated'
 
