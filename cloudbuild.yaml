@@ -28,8 +28,8 @@ steps:
 
     - '--image'
 
-#    - 'gcr.io/$_PROJECT_ID/$_BINARY_NAME:$COMMIT_SHA'
-    -  'gcr.io/shortenurl-project-421309/urlservice:shorturl'
+    - 'gcr.io/$_PROJECT_ID/$_BINARY_NAME:$COMMIT_SHA'
+#    -  'gcr.io/shortenurl-project-421309/urlservice:shorturl'
 
     - '--region'
 
