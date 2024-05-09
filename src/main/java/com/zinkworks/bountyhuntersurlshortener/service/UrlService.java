@@ -44,7 +44,7 @@ public class UrlService {
                 newRecord.setOriginalUrl(originalUrl);
 
 
-                repositoryUrl.save(newRecord);//
+                repositoryUrl.save(newRecord);//test
             }
         }
         //return "http://localhost:8080/api/v1/BountyURL/" + createdShortUrl;
