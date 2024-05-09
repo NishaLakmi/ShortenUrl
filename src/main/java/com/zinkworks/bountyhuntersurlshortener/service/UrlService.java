@@ -22,7 +22,7 @@ public class UrlService {
 
     @Autowired
     private RepositoryUrl repositoryUrl;  // creating object of RepositoryUrl class
-    public List<BountyUrlTable> getAllUrlInfo() {//test
+    public List<BountyUrlTable> getAllUrlInfo() {
         return repositoryUrl.findAll();    // returns all database info from the repository class.
     }
 
