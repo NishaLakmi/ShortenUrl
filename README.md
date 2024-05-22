@@ -13,7 +13,7 @@ Cloud Build API enabled on Google Cloud Console
 Google Cloud Run API enabled
 Google Cloud SQL API enabled
 
-Installing
+#Installing
 1. Set Up  Google Cloud Project
    Creat a new project in the Google Cloud Console
    Enable Cloud Run, Cloud Build and Cloud SQL APIs
@@ -43,11 +43,11 @@ docker push gcr.io/shortenurl-project-421309/url-shortener:shorturl
    gcloud run deploy url-shortener --image gcr.io/your-project-id/url-shortener --platform managed
 
 
-Executing Program
+#Executing Program
 1. Run Locally
    ./ mnvw spring-boot🇧🇳
 
-Configuration Cloud Build and Trigers
+#Configuration Cloud Build and Trigers
 
 1. Connect GitHub Repository:
    In Google Cloud Console, Connect your GitHub repository.
@@ -55,7 +55,7 @@ Configuration Cloud Build and Trigers
 2. Set Up Build Configuration
    Create 'cloudbuild.yaml' file
 
-Connecting to Cloud SQL
+#Connecting to Cloud SQL
 1. Set Up Cloud SQL
    Create and Configure a PostGresSQL instance.
    Enable public IP and Configure authorized networks for access.
@@ -64,7 +64,7 @@ Connecting to Cloud SQL
 3. Connect Form Cloud Run:
    Set up enviornment variable in Cloud Run Service for database connection details.
 
-Help
+#Help
 For Common issues or problems, refer to the following:
 1. Check Logs
 2. Database Connection Errors.
